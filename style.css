@@ -1,0 +1,66 @@
+/* 
+Sintaxis:
+
+screen, print, all
+
+@media (media-type and (condition: value)) {
+    CSS-Code;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media print and (min-width: 768px) {
+    body {
+        background-color: white;
+    }
+}
+
+
+
+*/
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7em;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    body {
+        background-color: blueviolet;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body {
+        background-color: brown;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    body {
+        background-color: bisque;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    body {
+        background-color: burlywood;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    body {
+        background-color: cadetblue;
+    }
+}
